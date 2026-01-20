@@ -1,24 +1,24 @@
 const diceEl = document.getElementById('dice');
-    const rollBtn = document.getElementById('rollBtn');
-    const playerScoreEl = document.getElementById('playerScore');
-    const computerScoreEl = document.getElementById('computerScore');
-    const messageEl = document.getElementById('message');
+const rollBtn = document.getElementById('rollBtn');
+const playerScoreEl = document.getElementById('playerScore');
+const computerScoreEl = document.getElementById('computerScore');
+const messageEl = document.getElementById('message');
 
-    let playerScore = 0;
-    let computerScore = 0;
-    let round = 1;
-    const maxRounds = 5;
+let playerScore = 0;
+let computerScore = 0;
+let round = 1;
+const maxRounds = 5;
 
-    function rollDice() {
-    return Math.floor(Math.random() * 6) + 1;
-    }
+function rollDice() {
+return Math.floor(Math.random() * 6) + 1;
+}
 
-    function getDiceFace(num) {
-    const faces = ['⚀','⚁','⚂','⚃','⚄','⚅'];
-    return faces[num - 1];
-    }
+function getDiceFace(num) {
+const faces = ['⚀','⚁','⚂','⚃','⚄','⚅'];
+return faces[num - 1];
+}
 
-    rollBtn.addEventListener('click', () => {
+rollBtn.addEventListener('click', () => {
     if (round > maxRounds) return;
 
     const playerRoll = rollDice();
