@@ -54,6 +54,12 @@ button {
     cursor: pointer;
 }
 
+.replay-btn {
+    display: none;
+    background: palevioletred;
+    margin-block-start: 1rem;
+}
+
 button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
