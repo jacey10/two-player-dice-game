@@ -80,12 +80,7 @@ button:disabled {
 }
 
 .footer a {
-    color:  #38bdf8;
+    color:  hsl(198, 93%, 60%);
     text-underline-offset: 0.35rem;
     text-decoration-thickness: 0.1rem;
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-    color: rgb(138, 206, 138);
 }
