@@ -83,4 +83,10 @@ button:disabled {
     color:  #38bdf8;
     text-underline-offset: 0.35rem;
     text-decoration-thickness: 0.1rem;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: rgb(138, 206, 138);
+    text-decoration: none;
 }
