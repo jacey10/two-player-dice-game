@@ -50,3 +50,11 @@ A simple, interactive dice game built to practice **JavaScript fundamentals** li
 
 * Change colors, fonts, or layout via CSS.
 * Extend JS for scoring, sound effects, or other features.
+
+---
+
+## 👩‍💻 Author
+
+- **Website** - [Jacey Blog](https://www.jacey.hashnode.dev/)
+- **Frontend Mentor** - [@jacey10](https://www.frontendmentor.io/profile/jacey10)
+- **Twitter** - [@jacey_muna](https://x.com/jacey_muna)
